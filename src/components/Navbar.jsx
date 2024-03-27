@@ -17,12 +17,32 @@ const Navbar = () => {
       </div>
 
       {/* Menu */}
-        <ul className='hidden md:flex'>
-          <li>Home</li>
-          <li>About</li>
-          <li>Skills</li>
-          <li>Work</li>
-          <li>Contact</li>
+        <ul className='hidden md:flex '>
+          <li>
+            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+              About
+            </a>
+          </li>
+          <li>
+            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+              Work
+            </a>
+          </li>
+          <li>
+            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+              Contact
+            </a>
+          </li>
         </ul>
 
       {/* Hamburger */}

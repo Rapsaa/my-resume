@@ -20,7 +20,17 @@ const Home = () => {
             <p className={`text-[#45A29E] py-4 max-w-[700px]`}>
                 I work as a Game Developer, but have also done software development. 
                 I am also very interested in the cloud and starting a cloud career.</p>
+
+            <div>
+            <button className='text-[#C5C6C7] border-[#C5C6C7] group border-2 px-6 py-3 my-2 flex items-center rounded-sm hover:border-[#66FCF1] hover:text-[#66FCF1] hover:shadow-xl hover:shadow-[#66FCF1]/50'>Resume
+            <span className='group-hover:rotate-90 duration-300'>
+                <HiArrowNarrowRight className='ml-3' />
+            </span>
+            </button>
+        </div>   
         </div>
+
+        
 
     </div>
   )
