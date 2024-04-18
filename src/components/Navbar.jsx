@@ -3,6 +3,7 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { HiOutlineMail } from 'react-icons/hi'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import Logo from '../assets/logowhite.png'
+import {Link} from 'react-scroll'
 
 
 const Navbar = () => {
@@ -18,30 +19,33 @@ const Navbar = () => {
 
       {/* Menu */}
         <ul className='hidden md:flex '>
-          <li>
-            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-              Home
-            </a>
+          <li >
+            <Link to="home" smooth={true} duration={500}>
+              <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+                Home
+              </a>
+            </Link>
           </li>
-          <li>
-            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-              About
-            </a>
+          <li >
+            <Link to="about" smooth={true} duration={500}>
+              <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+                About
+              </a>
+            </Link>
           </li>
-          <li>
-            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-              Skills
-            </a>
+          <li >
+            <Link to="skills" smooth={true} duration={500}>
+              <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+                Skills
+              </a>
+            </Link>
           </li>
-          <li>
-            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-              Work
-            </a>
-          </li>
-          <li>
-            <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
-              Contact
-            </a>
+          <li >
+            <Link to="work" smooth={true} duration={500}>
+              <a href="#" class="relative text-xl hover:text-[#66FCF1] w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-[#66FCF1] after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-center">
+                Work
+              </a>
+            </Link>
           </li>
         </ul>
 
